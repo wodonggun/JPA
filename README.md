@@ -1,5 +1,18 @@
 # JPA
 
+
+## JPA
+이번 글에서는 JPA(Java Persistence API)가 무엇인지 알아보려고한다. JPA는 자바 진영에서 ORM(Object-Relational Mapping) 기술 표준으로 사용되는 인터페이스의 모음이다. 그 말은 즉, 실제적으로 구현된것이 아니라 구현된 클래스와 매핑을 해주기 위해 사용되는 프레임워크이다. JPA를 구현한 대표적인 오픈소스로는 Hibernate가 있다.
+
+ORM(Object-Relational Mapping) 우리가 일반 적으로 알고 있는 애플리케이션 Class와 RDB(Relational DataBase)의 테이블을 매핑(연결)한다는 뜻이며, 기술적으로는 어플리케이션의 객체를 RDB 테이블에 자동으로 영속화 해주는 것이라고 보면된다.
+
+JPA(Java Persistence API) Java 진영에서 ORM(Object-Relational Mapping) 기술 표준으로 사용하는 인터페이스 모음 자바 어플리케이션에서 관계형 데이터베이스를 사용하는 방식을 정의한 인터페이스 인터페이스 이기 때문에 Hibernate, OpenJPA 등이 JPA를 구현함
+
+![image](https://user-images.githubusercontent.com/35188271/174612482-930a3cf9-a01c-4b93-a5f0-1c5dde793ca0.png)
+![image](https://user-images.githubusercontent.com/35188271/174612507-5adffcbc-c983-4049-8ca2-81593e0bc24e.png)
+
+
+
 ## intro
 JPA는 단순하게 쿼리를 짜지않고, 코드도 적어서 개발 속도가 빨라짐.  
 - 예시  
