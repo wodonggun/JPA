@@ -2,7 +2,8 @@
 
 
 ## JPA
-이번 글에서는 JPA(Java Persistence API)가 무엇인지 알아보려고한다. JPA는 자바 진영에서 ORM(Object-Relational Mapping) 기술 표준으로 사용되는 인터페이스의 모음이다. 그 말은 즉, 실제적으로 구현된것이 아니라 구현된 클래스와 매핑을 해주기 위해 사용되는 프레임워크이다. JPA를 구현한 대표적인 오픈소스로는 Hibernate가 있다.
+이번 글에서는 JPA(Java Persistence API)가 무엇인지 알아보려고한다. JPA는 자바 진영에서 
+(Object-Relational Mapping) 기술 표준으로 사용되는 인터페이스의 모음이다. 그 말은 즉, 실제적으로 구현된것이 아니라 구현된 클래스와 매핑을 해주기 위해 사용되는 프레임워크이다. JPA를 구현한 대표적인 오픈소스로는 Hibernate가 있다.
 
 ORM(Object-Relational Mapping) 우리가 일반 적으로 알고 있는 애플리케이션 Class와 RDB(Relational DataBase)의 테이블을 매핑(연결)한다는 뜻이며, 기술적으로는 어플리케이션의 객체를 RDB 테이블에 자동으로 영속화 해주는 것이라고 보면된다.
 
@@ -25,14 +26,25 @@ JPA는 단순하게 쿼리를 짜지않고, 코드도 적어서 개발 속도가
 ![image](https://user-images.githubusercontent.com/35188271/162733690-e2086267-a3d0-4bc7-b459-d8bee9fce380.png)  
 
 
-## ORM
-`ORM(Object-relation mapping)` : 객체 관계 매핑 프레임워크  
-`JPA(Java persistence API` : 자바 ORM 표준  
+## ORM  
+![image](https://user-images.githubusercontent.com/35188271/175764340-ea9b8254-4b2f-4961-a5fe-62eadc6c7db8.png)
+
+- `ORM(Object-relation mapping)` : 객체 관계 매핑 프레임워크  
+- `JPA(Java persistence API` : 자바 ORM 표준  
+- `hibernate` : ORM Framework중 하나로 JPA 구현체 중 가장 많이 사용됨.
+- `Srping Data JPA` : Hibernate중에서 자주쓰이고 Spring에 최적화된 라이브러리 일부.
+![image](https://user-images.githubusercontent.com/35188271/175764412-1bb5fce2-0102-44fb-85d5-3fd7eab7297b.png)
+
 
 - JPA 구조  
 ![image](https://user-images.githubusercontent.com/35188271/162744206-8e5dca73-37f3-4a4b-b21b-e961862748c5.png)  
 
 ![image](https://user-images.githubusercontent.com/35188271/162744483-c5c85ade-9fbb-42a5-8ffa-50999f470470.png)  
+
+
+
+
+
 
 ## 지연 로딩 / 즉시 로딩
 
