@@ -1,6 +1,12 @@
-# JPA
+## Spring && JPA
 
 
+
+## Spring 강의
+
+https://www.youtube.com/watch?v=HXXn3apd_04&list=PLlTylS8uB2fBOi6uzvMpojFrNe7sRmlzU&index=45
+
+ 
 ## JPA
 이번 글에서는 JPA(Java Persistence API)가 무엇인지 알아보려고한다. JPA는 자바 진영에서 
 (Object-Relational Mapping) 기술 표준으로 사용되는 인터페이스의 모음이다. 그 말은 즉, 실제적으로 구현된것이 아니라 구현된 클래스와 매핑을 해주기 위해 사용되는 프레임워크이다. JPA를 구현한 대표적인 오픈소스로는 Hibernate가 있다.
